@@ -1,0 +1,78 @@
+*{
+  box-sizing: border-box;
+  background-color: rgb(102, 115, 115);
+}
+.dice{
+  width:18vw;
+  height: 18vw;
+  background-color: rgb(201, 192, 192);
+  border:1px solid inherit;
+  border-radius: 3vw;
+  position: relative;
+
+}
+.circle{
+  width: 3vw;
+  height: 3vw;
+  background-color: white;
+  position: absolute;
+  
+  border:1px solid inherit;
+  border-radius: 1.5vw;
+}
+.dices{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 39vw;
+  margin:10vh auto 0;
+
+}
+button{
+  width: 3.5vw;
+  display: block;
+  margin:3.5vw auto 0;
+  background-color:inherit;
+  border-style: none;
+  border:1px solid blue;
+  padding: 5px;
+  border-radius: 5px;
+  color:rgb(0, 62, 116);
+  cursor: pointer;
+}
+.circle1{
+  top:1.5vw;
+  left:1.5vw;
+}
+.circle2{
+  top:7.5vw;
+  left:1.5vw;
+}
+.circle3{
+  top:13.5vw;
+  left:1.5vw;
+}
+.circle4{
+  top:1.5vw;
+  left:7.5vw;
+}
+.circle5{
+  top:7.5vw;
+  left:7.5vw;
+}
+.circle6{
+  top:13.5vw;
+  left:7.5vw;
+}
+.circle7{
+  top:1.5vw;
+  left:13.5vw;
+}
+.circle8{
+  top:7.5vw;
+  left:13.5vw;
+}
+.circle9{
+  top:13.5vw;
+  left:13.5vw;
+}
